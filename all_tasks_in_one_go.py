@@ -3,7 +3,7 @@ from tasks import (
     fourth_task_get_multiprocessing,
     first_task_multiprocessing,
     third_task_get_threading,
-    fifth_task_get_concurent_futures,
+    fifth_task_get_concurrent_futures,
 )
 
 
@@ -32,7 +32,7 @@ def main():
     second_task_threading_multiprocessing.multiprocessing_task()
     third_task_get_threading.main()
     fourth_task_get_multiprocessing.main()
-    fifth_task_get_concurent_futures.main()
+    fifth_task_get_concurrent_futures.main()
 
 
 if __name__ == "__main__":
