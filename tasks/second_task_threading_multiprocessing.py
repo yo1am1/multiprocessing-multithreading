@@ -50,7 +50,7 @@ def threading_task():
 
 def multiprocessing_task():
     global number
-    print("*"*100)
+    print("*" * 100)
 
     start_time = time.time()
 
@@ -79,7 +79,7 @@ def multiprocessing_task():
         """
     )
 
-    print("*"*100)
+    print("*" * 100)
 
 
 if __name__ == "__main__":

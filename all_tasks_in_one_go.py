@@ -1,5 +1,10 @@
-from tasks import second_task_threading_multiprocessing, fourth_task_get_multiprocessing, first_task_multiprocessing, \
-    third_task_get_threading, fifth_task_get_concurent_futures
+from tasks import (
+    second_task_threading_multiprocessing,
+    fourth_task_get_multiprocessing,
+    first_task_multiprocessing,
+    third_task_get_threading,
+    fifth_task_get_concurent_futures,
+)
 
 
 def main():

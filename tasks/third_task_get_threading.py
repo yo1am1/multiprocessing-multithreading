@@ -47,7 +47,7 @@ ________________________________________________________________________________
 
 def main():
     global error
-    print("*"*100)
+    print("*" * 100)
 
     urls = [
         "https://www.example.com",
@@ -83,7 +83,7 @@ def main():
     else:
         print("Some downloads failed! (third task)")
 
-    print("*"*100)
+    print("*" * 100)
 
 
 if __name__ == "__main__":

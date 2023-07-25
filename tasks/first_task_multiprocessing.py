@@ -21,7 +21,7 @@ def print_odd_numbers():
 
 
 def main():
-    print("*"*100)
+    print("*" * 100)
 
     process1 = multiprocessing.Process(target=print_odd_numbers)
     process2 = multiprocessing.Process(target=print_even_numbers)
@@ -44,7 +44,7 @@ def main():
     _______________________________________
         """
     )
-    print("*"*100)
+    print("*" * 100)
 
 
 if __name__ == "__main__":

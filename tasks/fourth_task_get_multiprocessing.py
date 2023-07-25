@@ -41,7 +41,7 @@ ________________________________________________________________________________
 
 
 def main():
-    print("*"*100)
+    print("*" * 100)
 
     urls = [
         "https://www.example.com",
@@ -74,7 +74,7 @@ def main():
 
     print("Done fourth task!")
 
-    print("*"*100)
+    print("*" * 100)
 
 
 if __name__ == "__main__":

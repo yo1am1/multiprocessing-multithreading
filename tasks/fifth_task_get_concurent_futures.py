@@ -14,24 +14,30 @@ def fetch_url(url):
 
 
 def sequential_requests(url, num_requests):
-    print(f"""
+    print(
+        f"""
 ________________________________________________________________
-Executing {num_requests} sequential requests to {url}...""")
+Executing {num_requests} sequential requests to {url}..."""
+    )
     start_time = time.time()
 
     for _ in range(num_requests):
         fetch_url(url)
 
     end_time = time.time()
-    print(f"""
+    print(
+        f"""
 Sequential requests took {end_time - start_time:.4f} seconds.
-________________________________________________________________""")
+________________________________________________________________"""
+    )
 
 
 def concurrent_requests(url, num_requests):
-    print(f"""\n
+    print(
+        f"""\n
 ________________________________________________________________
-Executing {num_requests} concurrent requests to {url}...""")
+Executing {num_requests} concurrent requests to {url}..."""
+    )
 
     start_time = time.time()
 
@@ -40,10 +46,12 @@ Executing {num_requests} concurrent requests to {url}...""")
         concurrent.futures.wait(futures)
 
     end_time = time.time()
-    print(f"""
+    print(
+        f"""
 Concurrent requests took {end_time - start_time:.4f} seconds.
 ________________________________________________________________
-    """)
+    """
+    )
 
 
 def main():
