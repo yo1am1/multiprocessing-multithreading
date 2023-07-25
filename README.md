@@ -9,10 +9,10 @@
    ```
     * If you want to run each task separately, you can do it by running the files [first_task_multiprocessing.py](https://github.com/yo1am1/homework_25/blob/main/tasks/first_task_multiprocessing.py), [second_task_threading_multiprocessing.py](https://github.com/yo1am1/homework_25/blob/main/tasks/first_task_multiprocessing.py), [third_task_get_threading.py](https://github.com/yo1am1/homework_25/blob/main/tasks/third_task_get_threading.py), [fourth_task_get_multiprocessing.py](https://github.com/yo1am1/homework_25/blob/main/tasks/fourth_task_get_multiprocessing.py), [fifth_task_get_concurent_futures.py](https://github.com/yo1am1/homework_25/blob/main/tasks/fifth_task_get_concurent_futures.py)
    ```python
-   python first_task_multiprocessing.py
-   python second_task_threading_multiprocessing.py
-   python third_task_get_threading.py
-   python fourth_task_get_multiprocessing.py
-   python fifth_task_get_concurent_futures.py
+    python first_task_multiprocessing.py
+    python second_task_threading_multiprocessing.py
+    python third_task_get_threading.py
+    python fourth_task_get_multiprocessing.py
+    python fifth_task_get_concurent_futures.py
    ```
 5. Enjoy the results.
