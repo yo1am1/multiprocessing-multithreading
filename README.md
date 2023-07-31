@@ -1,5 +1,5 @@
 # Multithreading and multiprocessing
-> Use file [all_tasks_in_one_go.py](https://github.com/yo1am1/homework_25/blob/main/all_tasks_in_one_go.py) to run all tasks at the same time.
+> Use file [all_tasks_in_one_go.py](https://github.com/yo1am1/multiprocessing-multithreading/blob/main/all_tasks_in_one_go.py) to run all tasks at the same time.
 ## How to run the project
 1. Clone the repository to your computer.
    ```bash
